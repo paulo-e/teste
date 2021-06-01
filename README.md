@@ -27,4 +27,4 @@ você irá apenas listar os filmes do serviço consumindo a API deles.
 
 ---
 
-### OBS: Ao concluír os passos, coloque o tema no github com um README.md explicando como você implementou e as dificuldades. Boa sorte!. 😉
+### OBS: Ao concluír os passos, coloque o tema no github com um README.md explicando como você implementou e as dificuldades. Boa sorte!. 😉 prazo até sexta 04/06
