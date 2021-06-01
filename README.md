@@ -17,7 +17,7 @@ Para realizar o nosso teste, utilize as tecnologias abaixo e siga os seguintes p
 Ao clonar este repositório, abra o arquivo index.html para visualizar o layout pronto.
 
 ## 📑 PASSO 2 - CRIANDO O TEMA WP
- - Utilize o XAMPP/WAMP para rodar o servidor o MYSQL. 
+ - Utilize o XAMPP/WAMP para rodar o servidor PHP e o MYSQL. 
  - Faça a instalação do Wordpress.
  - Com as tecnologias citadas no PASSO 1 você irá dinamizar o layout do arquivo index.html no wordpress.
 
@@ -27,4 +27,4 @@ você irá apenas listar os filmes do serviço consumindo a API deles.
 
 ---
 
-### OBS: Ao concluír os passos, suba o tema para o github com um README.md explicando como você implementou e as dificuldades. Boa sorte!. 😉
+### OBS: Ao concluír os passos, coloque o tema no github com um README.md explicando como você implementou e as dificuldades. Boa sorte!. 😉
