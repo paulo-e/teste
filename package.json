@@ -1,0 +1,23 @@
+{
+  "name": "tema_teste",
+  "version": "1.0.0",
+  "description": "![Alt text](https://www.convertte.com.br/cvtt/wp-content/themes/cvtt_v3/assets/images/logo.png)",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-e/teste.git"
+  },
+  "author": "Paulo Elienay",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/paulo-e/teste/issues"
+  },
+  "homepage": "https://github.com/paulo-e/teste#readme",
+  "devDependencies": {
+    "parceljs": "^0.0.1",
+    "sass": "^1.34.0"
+  }
+}
