@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/paulo-e/teste#readme",
   "devDependencies": {
+    "chokidar-cli": "^2.1.0",
     "parceljs": "^0.0.1",
     "sass": "^1.34.0"
   }
