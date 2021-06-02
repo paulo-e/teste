@@ -3,4 +3,8 @@
 #+LICENSE: BSD-3-Clause
 
 * TODO
-- [ ] Swap READMEs
+** TODO Dinamizar
+*** OKAY header
+*** TODO content
+*** OKAY footer
+** TODO Consumir API

@@ -22,6 +22,3 @@ function teste_register_scripts () {
 }
 
 add_action('wp_enqueue_scripts', "teste_register_scripts");
-
-
-?>

@@ -1,18 +1,32 @@
 <!DOCTYPE html><!--  Last Published: Thu Dec 03 2020 14:57:07 GMT+0000 (Coordinated Universal Time)  -->
-<html <?php language_attributes(); ?> >
+<html <?php language_attributes(); ?>>
+
 <head>
   <?php wp_head(); ?>
   <meta charset="<?php bloginfo('charset') ?>">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]  }});</script>
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    ! function(o, c) {
+      var n = c.documentElement,
+        t = " w-mod-";
+      n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+    }(window, document);
+  </script>
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/webclip.png" rel="apple-touch-icon">
 </head>
+
 <body <?php body_class(); ?>>
   <div data-collapse="medium" data-animation="default" data-duration="400" id="Navigation" role="banner" class="nav-bar-v2 w-nav">
-      <a href="#" class="nav-brand-v2 w-nav-brand"><img src="images/escolas-mem.png" sizes="(max-width: 479px) 78.96875px, 105.296875px" srcset="images/escolas-mem-p-500.png 500w, images/escolas-mem-p-800.png 800w, images/escolas-mem-p-1080.png 1080w, images/escolas-mem.png 1111w" alt="" class="nav-logo"></a>
+    <a href="#" class="nav-brand-v2 w-nav-brand"><img src="images/escolas-mem.png" sizes="(max-width: 479px) 78.96875px, 105.296875px" srcset="images/escolas-mem-p-500.png 500w, images/escolas-mem-p-800.png 800w, images/escolas-mem-p-1080.png 1080w, images/escolas-mem.png 1111w" alt="" class="nav-logo"></a>
     <div class="nav-space"></div>
     <nav role="navigation" class="nav-menu-v2 w-nav-menu">
       <form action="/search" class="search-form w-form"><input type="search" class="search-form-input w-input" maxlength="256" name="query" placeholder=" Search..." id="search" required=""><input type="submit" value=" " class="search-button w-button"></form>
