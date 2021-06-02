@@ -22,3 +22,11 @@ function teste_register_scripts () {
 }
 
 add_action('wp_enqueue_scripts', "teste_register_scripts");
+
+function teste_add_movie($id) {
+    $apikey = "d1efa39f";
+    $url = "http://www.omdbapi.com/?apikey=$apikey&i=$id";
+    $json = file_get_contents($url);
+    $data = json_decode($json, TRUE);
+    return $data;
+}
