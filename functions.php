@@ -1,5 +1,11 @@
 <?php
 
+function teste_theme_support () {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'teste_theme_support');
+
 function teste_register_styles () {
     // FIXME
     wp_enqueue_style("normalize", get_template_directory_uri() . "/assets/css/normalize.css", array(), '1', 'all');
