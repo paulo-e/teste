@@ -4,7 +4,9 @@
   "description": "![Alt text](https://www.convertte.com.br/cvtt/wp-content/themes/cvtt_v3/assets/images/logo.png)",
   "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"start": "chokidar \"**/*.scss\"",
+		"watch": "chokidar \"**/*.scss\""
   },
   "repository": {
     "type": "git",
