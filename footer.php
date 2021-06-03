@@ -54,8 +54,8 @@
     </div>
   </div>
   </div>
-  <script type="text/javascript" src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5fa45342033e749f917aad36"></script>
-  <?php wp_footer(); ?>
+ <script type="text/javascript" src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5fa45342033e749f917aad36"></script>
+ <?php wp_footer(); ?>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
   </html>
