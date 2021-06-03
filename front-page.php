@@ -109,17 +109,17 @@
         <div class="post-card">
           <a href="#" class="thumbnail-medium w-inline-block">
             <div class="badge">TAG</div>
-            <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-3"></div>
+            <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-3"></div>
           </a>
           <a href="#" class="post-heading-link w-inline-block">
             <h4 class="post-heading-medium">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy…</h4>
           </a>
           <div class="post-info">
-            <div class="post-info-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+            <div class="post-info-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
               <div>Aldo Luiz</div>
             </div>
             <div class="post-info-block">
-              <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+              <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
               <div>03</div>
               <div> min leitura</div>
             </div>
@@ -128,7 +128,7 @@
         <div>
           <div class="post-mini">
             <a href="#" class="post-mini-thumbnail w-inline-block">
-              <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt=""></div>
+              <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt=""></div>
             </a>
             <div class="post-mini-content">
               <a href="#" class="post-heading-link w-inline-block">
@@ -139,11 +139,11 @@
                   <div>Federal</div>
                 </div>
                 <div class="post-info-block">
-                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
                   <div>Aldo Luiz</div>
                 </div>
                 <div class="post-info-block">
-                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
                   <div>03</div>
                   <div> min leitura</div>
                 </div>
@@ -152,7 +152,7 @@
           </div>
           <div class="post-mini">
             <a href="#" class="post-mini-thumbnail w-inline-block">
-              <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt=""></div>
+              <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt=""></div>
             </a>
             <div class="post-mini-content">
               <a href="#" class="post-heading-link w-inline-block">
@@ -163,11 +163,11 @@
                   <div>Federal</div>
                 </div>
                 <div class="post-info-block">
-                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
                   <div>Aldo Luiz</div>
                 </div>
                 <div class="post-info-block">
-                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
                   <div>03</div>
                   <div> min leitura</div>
                 </div>
@@ -176,7 +176,7 @@
           </div>
           <div class="post-mini">
             <a href="#" class="post-mini-thumbnail w-inline-block">
-              <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt=""></div>
+              <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt=""></div>
             </a>
             <div class="post-mini-content">
               <a href="#" class="post-heading-link w-inline-block">
@@ -187,11 +187,11 @@
                   <div>Federal</div>
                 </div>
                 <div class="post-info-block">
-                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
                   <div>Aldo Luiz</div>
                 </div>
                 <div class="post-info-block">
-                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/clock.svg" alt="" class="mini-icon-grey">
+                  <div class="divider-small"></div><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/clock.svg" alt="" class="mini-icon-grey">
                   <div>03</div>
                   <div> min leitura</div>
                 </div>
@@ -220,7 +220,7 @@
             <?php teste_add_movie_html("tt0108778") ?>
         </div>
         <div class="slider-v3-arrow left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/5fa443314944220d73966316/5fa443310cae073ffd288d8a_left.svg" alt="" class="slider-v5-arrow-icon"></div>
-        <div class="slider-v3-arrow w-slider-arrow-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/right.svg" alt="" class="slider-v5-arrow-icon"></div>
+        <div class="slider-v3-arrow w-slider-arrow-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/right.svg" alt="" class="slider-v5-arrow-icon"></div>
         <div class="slider-v5-nav w-slider-nav w-round"></div>
       </div>
     </div>
@@ -236,7 +236,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -248,7 +248,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -260,7 +260,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -272,7 +272,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -284,7 +284,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -296,7 +296,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -308,7 +308,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -320,7 +320,7 @@
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
               <a href="#" class="thumbnail-small w-inline-block">
-                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
+                <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/background-image.svg" loading="lazy" alt="" class="image-2"></div>
               </a>
               <a href="#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small">CADERNO DE QUESTÕES</h5>
@@ -331,7 +331,7 @@
           </div>
         </div>
         <div class="slider-v3-arrow left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/5fa443314944220d73966316/5fa443310cae073ffd288d8a_left.svg" alt="" class="slider-v5-arrow-icon"></div>
-        <div class="slider-v3-arrow w-slider-arrow-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/right.svg" alt="" class="slider-v5-arrow-icon"></div>
+        <div class="slider-v3-arrow w-slider-arrow-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/right.svg" alt="" class="slider-v5-arrow-icon"></div>
         <div class="slider-v5-nav w-slider-nav w-round"></div>
       </div>
     </div>
@@ -348,7 +348,7 @@
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
                 <a href="#" class="thumbnail-small w-inline-block">
-                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
+                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
@@ -363,7 +363,7 @@
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
                 <a href="#" class="thumbnail-small w-inline-block">
-                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
+                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
@@ -378,7 +378,7 @@
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
                 <a href="#" class="thumbnail-small w-inline-block">
-                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
+                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
@@ -393,7 +393,7 @@
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
                 <a href="#" class="thumbnail-small w-inline-block">
-                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
+                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
@@ -408,7 +408,7 @@
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
                 <a href="#" class="thumbnail-small w-inline-block">
-                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
+                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
@@ -423,7 +423,7 @@
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
                 <a href="#" class="thumbnail-small w-inline-block">
-                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
+                  <div class="thumbnail"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
@@ -436,7 +436,7 @@
           </div>
         </div>
         <div class="slider-v3-arrow left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/5fa443314944220d73966316/5fa443310cae073ffd288d8a_left.svg" alt="" class="slider-v5-arrow-icon"></div>
-        <div class="slider-v3-arrow w-slider-arrow-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/right.svg" alt="" class="slider-v5-arrow-icon"></div>
+        <div class="slider-v3-arrow w-slider-arrow-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/right.svg" alt="" class="slider-v5-arrow-icon"></div>
         <div class="slider-v5-nav w-slider-nav w-round"></div>
       </div>
     </div>

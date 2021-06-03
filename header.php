@@ -20,13 +20,13 @@
       n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
     }(window, document);
   </script>
-  <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/webclip.png" rel="apple-touch-icon">
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/src/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/src/images/webclip.png" rel="apple-touch-icon">
 </head>
 
 <body <?php body_class(); ?>>
   <div data-collapse="medium" data-animation="default" data-duration="400" id="Navigation" role="banner" class="nav-bar-v2 w-nav">
-    <a href="#" class="nav-brand-v2 w-nav-brand"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/escolas-mem.png" sizes="(max-width: 479px) 78.96875px, 105.296875px" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/escolas-mem-p-500.png 500w, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/escolas-mem-p-800.png 800w, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/escolas-mem-p-1080.png 1080w, images/escolas-mem.png 1111w" alt="" class="nav-logo"></a>
+    <a href="#" class="nav-brand-v2 w-nav-brand"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/escolas-mem.png" sizes="(max-width: 479px) 78.96875px, 105.296875px" srcset="<?php echo get_stylesheet_directory_uri(); ?>/src/images/escolas-mem-p-500.png 500w, <?php echo get_stylesheet_directory_uri(); ?>/src/images/escolas-mem-p-800.png 800w, <?php echo get_stylesheet_directory_uri(); ?>/src/images/escolas-mem-p-1080.png 1080w, images/escolas-mem.png 1111w" alt="" class="nav-logo"></a>
     <div class="nav-space"></div>
     <nav role="navigation" class="nav-menu-v2 w-nav-menu">
       <form action="/search" class="search-form w-form"><input type="search" class="search-form-input w-input" maxlength="256" name="query" placeholder=" Search..." id="search" required=""><input type="submit" value=" " class="search-button w-button"></form>
@@ -55,7 +55,7 @@
     </div>
     <div class="side-menu">
       <div class="full-height-menu-contents">
-        <a href="#" class="w-inline-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-mem2x.png" width="200" sizes="200px" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-mem2x-p-500.png 500w, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-mem2x.png 523w" alt=""></a>
+        <a href="#" class="w-inline-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/images/logo-mem2x.png" width="200" sizes="200px" srcset="<?php echo get_stylesheet_directory_uri(); ?>/src/images/logo-mem2x-p-500.png 500w, <?php echo get_stylesheet_directory_uri(); ?>/src/images/logo-mem2x.png 523w" alt=""></a>
         <div class="full-height-menu-links">
           <a href="#" class="full-height-menu-link">Home</a>
           <a href="https://spark-template.webflow.io/#Landing-Pages" class="full-height-menu-link">Notícias</a>
