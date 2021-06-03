@@ -3,7 +3,7 @@
 O projeto foi feito usando `PHP/MySQL` e `Wordpress` para dinamizar uma página HTML. 
 Após a dinamização, foi adicionado `gulp` (com `npm` e `node`).
 
-#![Print](site.png)
+![Print](site.png)
 
 ## Instalação
 ### Windows
