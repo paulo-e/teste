@@ -16,9 +16,10 @@ function teste_register_styles () {
 add_action('wp_enqueue_scripts', "teste_register_styles");
 
 function teste_register_scripts () {
-    wp_enqueue_script("jquery", "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5fa45342033e749f917aad36", array(), '3.5.1', true);
-    wp_enqueue_script("webfont", "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js", array(), '1.6.26', true);
-    wp_enqueue_script("mem-c1ad69", get_template_directory_uri() . "/assets/js/mem-c1ad69.js", array(), true);
+    wp_enqueue_script("jquery",
+                      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5fa45342033e749f917aad36",
+                      array(), '3.5.1', true);
+    wp_enqueue_script("mem-c1ad69", get_template_directory_uri() . "/assets/js/mem-c1ad69.js", array(), '1', true);
 }
 
 add_action('wp_enqueue_scripts', "teste_register_scripts");
@@ -36,16 +37,17 @@ function teste_add_movie_html($id) {
     $poster = $data['Poster'];
     $title = $data['Title'];
     $plot = $data['Plot'];
+    $link = "https://www.imdb.com/title/$id/";
     $html = <<<EOF
           <div class="slide-v3 slide-v5 w-slide">
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
-                <a href="#" class="thumbnail-small w-inline-block">
+                <a href="$link" class="thumbnail-small w-inline-block">
                   <div class="thumbnail"><img src="$poster" loading="lazy" alt="" class="image image-podcast"></div>
                 </a>
               </div>
               <div>
-                <a href="#" class="post-heading-link w-inline-block">
+                <a href="$link" class="post-heading-link w-inline-block">
                   <h5 class="post-heading-small"> $title </h5>
                 </a>
                 <p class="paragraph">$plot</p>
