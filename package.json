@@ -19,6 +19,7 @@
   "devDependencies": {
     "@parcel/transformer-image": "^2.0.0-nightly.1981",
     "parcel": "^2.0.0-beta.2",
+    "parcel-plugin-svg": "^0.1.0",
     "sharp": "^0.24.1"
   }
 }
