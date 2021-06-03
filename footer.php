@@ -3,7 +3,7 @@
       <div class="footer-1-top">
         <div class="main-container">
           <div class="footer-1-top-row">
-            <a href="#" class="footer-1-logo w-inline-block"><img src="images/logo-mem2x.png" sizes="250px" srcset="images/logo-mem2x-p-500.png 500w, images/logo-mem2x.png 523w" alt="" class="image-7 logo"></a>
+            <a href="#" class="footer-1-logo w-inline-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-mem2x.png" sizes="250px" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-mem2x-p-500.png 500w, <?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-mem2x.png 523w" alt="" class="image-7 logo"></a>
             <ul role="list" class="social-icons-list w-list-unstyled">
               <li class="list-item">
                 <a href="https://www.linkedin.com/company/santos-silva-gest%C3%A3o-empresarial/" target="_blank" class="button-circle button-small bg-gray-3 w-inline-block"><img src="https://uploads-ssl.webflow.com/5f731fdea86d2045a59944e9/5f731fde240ace3f980c72ea_linkedin.svg" alt="" class="social-icon-2 social-icon-dark"></a>
@@ -15,7 +15,7 @@
                 <a href="https://www.facebook.com/SantosSilvaGestaoEmpresarial" target="_blank" class="button-circle button-small bg-gray-3 w-inline-block"><img src="https://uploads-ssl.webflow.com/5f731fdea86d2045a59944e9/5f731fde240ace3df40c72ce_facebook.svg" alt="" class="social-icon-2 social-icon-dark"></a>
               </li>
               <li class="list-item">
-                <a href="https://api.whatsapp.com/send?phone=+5521976499451&amp;text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="button-circle button-small bg-gray-3 w-inline-block"><img src="images/whatsapp.svg" alt="" class="social-icon-2 social-icon-dark iconwhatsapp"></a>
+                <a href="https://api.whatsapp.com/send?phone=+5521976499451&amp;text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="button-circle button-small bg-gray-3 w-inline-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whatsapp.svg" alt="" class="social-icon-2 social-icon-dark iconwhatsapp"></a>
               </li>
             </ul>
           </div>
@@ -57,5 +57,4 @@
   <?php wp_footer(); ?>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
-
   </html>
