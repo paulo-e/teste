@@ -5,7 +5,8 @@
   <?php wp_head(); ?>
   <meta charset="<?php bloginfo('charset') ?>">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+ <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">
     WebFont.load({
       google: {
@@ -46,7 +47,7 @@
         <div class="menu-line-bottom"></div>
       </div>
     </div>
-    <div data-w-id="b6a32dce-ecac-cd1e-d4b6-2cef1b7a197d" class="menu-button-v2 side-menu-button">
+    <div class="menu-button-v2 side-menu-button">
       <div class="menu-icon">
         <div class="menu-line-top-2"></div>
         <div class="menu-line-middle-2"></div>
