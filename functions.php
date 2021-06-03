@@ -30,3 +30,29 @@ function teste_add_movie($id) {
     $data = json_decode($json, TRUE);
     return $data;
 }
+
+function teste_add_movie_html($id) {
+    $data = teste_add_movie($id);
+    $poster = $data['Poster'];
+    $title = $data['Title'];
+    $plot = $data['Plot'];
+    $html = <<<EOF
+          <div class="slide-v3 slide-v5 w-slide">
+            <div class="post-card podcast-card">
+              <div class="div-block div-podcast">
+                <a href="#" class="thumbnail-small w-inline-block">
+                  <div class="thumbnail"><img src="$poster" loading="lazy" alt="" class="image image-podcast"></div>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="post-heading-link w-inline-block">
+                  <h5 class="post-heading-small"> $title </h5>
+                </a>
+                <p class="paragraph">$plot</p>
+              </div>
+            </div>
+        </div>
+    EOF;
+    echo $html;
+}
+?>
