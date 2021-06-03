@@ -4,9 +4,7 @@
   "description": "![Alt text](https://www.convertte.com.br/cvtt/wp-content/themes/cvtt_v3/assets/images/logo.png)",
   "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-		"start": "chokidar \"**/*.scss\"",
-		"watch": "chokidar \"**/*.scss\""
+    "test": "echo Teste"
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,6 @@
   "homepage": "https://github.com/paulo-e/teste#readme",
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
-    "parceljs": "^0.0.1",
     "sass": "^1.34.0"
   }
 }
