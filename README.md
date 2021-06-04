@@ -3,7 +3,7 @@
 O projeto foi feito usando `PHP/MySQL` e `Wordpress` para dinamizar uma página HTML. <br>
 Após a dinamização, foi adicionado `parcel` (com `npm` e `node`).
 
-![Print](site.png)
+![Print](site.gif)
 
 ## Instalação
 ### Windows
