@@ -8,8 +8,8 @@
       <div class="slide-v2">
         <div class="wrapper">
           <div class="slide-v2-content">
-            <a href="#" class="badge"><?php foreach ( get_the_category() as $category ) { echo $category->name; } ?></a>
-            <a href="#" class="slide-heading-link w-inline-block">
+            <a href="<?php the_permalink(); ?>#" class="badge"><?php foreach ( get_the_category() as $category ) { echo $category->name; } ?></a>
+            <a href="<?php the_permalink(); ?>#" class="slide-heading-link w-inline-block">
               <h2 class="slide-v2-heading"><?php the_title(); ?></h2>
             </a>
             <div class="post-info text-white">
@@ -71,7 +71,7 @@
 <?php if(have_posts()): the_post(); ?>
 
         <div class="post-card">
-          <a href="#" class="thumbnail-medium w-inline-block">
+          <a href="<?php the_permalink(); ?>#" class="thumbnail-medium w-inline-block">
             <div class="badge"><?php foreach( get_the_tags() as $tag ) { echo $tag->name; } ?></div>
             <div class="thumbnail">
               <?php if ( has_post_thumbnail() ): ?>
@@ -83,7 +83,7 @@
               <?php endif; ?>
             </div>
           </a>
-          <a href="#" class="post-heading-link w-inline-block">
+          <a href="<?php the_permalink(); ?>#" class="post-heading-link w-inline-block">
             <h4 class="post-heading-medium"><?php the_title(); ?></h4>
           </a>
           <div class="post-info">
@@ -101,7 +101,7 @@
 <?php endif; ?>
 <?php if ( have_posts() ): while ( have_posts() ): the_post(); ?>
           <div class="post-mini">
-            <a href="#" class="post-mini-thumbnail w-inline-block">
+            <a href="<?php the_permalink(); ?>#" class="post-mini-thumbnail w-inline-block">
               <div class="thumbnail">
                 <?php if ( has_post_thumbnail() ): ?>
                 "<?php the_post_thumbnail('post-thumbnail', [
@@ -113,7 +113,7 @@
               </div>
             </a>
             <div class="post-mini-content">
-              <a href="#" class="post-heading-link w-inline-block">
+              <a href="<?php the_permalink(); ?>#" class="post-heading-link w-inline-block">
                 <h5 class="post-mini-heading"><?php the_title(); ?></h5>
               </a>
               <div class="post-info">
@@ -175,7 +175,7 @@
 <?php if ( have_posts() ): while ( have_posts() ): the_post(); ?>
           <div class="slide-v3 w-slide">
             <div class="post-card mimo-card">
-              <a href="#" class="thumbnail-small w-inline-block">
+              <a href="<?php the_permalink(); ?>#" class="thumbnail-small w-inline-block">
                 <div class="thumbnail">
                   <?php if ( has_post_thumbnail() ): ?>
                   "<?php the_post_thumbnail('post-thumbnail', [
@@ -186,11 +186,11 @@
                   <?php endif; ?>
                 </div>
               </a>
-              <a href="#" class="post-heading-link w-inline-block">
+              <a href="<?php the_permalink(); ?>#" class="post-heading-link w-inline-block">
                 <h5 class="post-heading-small"><?php the_title(); ?></h5>
               </a>
               <p class="paragraph"><?php the_excerpt(); ?></p>
-              <a href="#" class="button w-button">Leia agora</a>
+              <a href="<?php the_permalink(); ?>#" class="button w-button">Leia agora</a>
             </div>
           </div>
 <?php endwhile; endif; ?>
@@ -214,7 +214,7 @@
           <div class="slide-v3 slide-v5 w-slide">
             <div class="post-card podcast-card">
               <div class="div-block div-podcast">
-                <a href="#" class="thumbnail-small w-inline-block">
+                <a href="<?php the_permalink(); ?>#" class="thumbnail-small w-inline-block">
                   <div class="thumbnail">
                     <?php if ( has_post_thumbnail() ): ?>
                     "<?php the_post_thumbnail('post-thumbnail', [
@@ -227,7 +227,7 @@
                 </a>
               </div>
               <div>
-                <a href="#" class="post-heading-link w-inline-block">
+                <a href="<?php the_permalink(); ?>#" class="post-heading-link w-inline-block">
                   <h5 class="post-heading-small"><?php the_title(); ?></h5>
                 </a>
                 <p class="paragraph"><?php the_excerpt(); ?></p>
